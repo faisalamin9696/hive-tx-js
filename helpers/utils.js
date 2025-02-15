@@ -174,13 +174,13 @@ export const buildWitnessSetProperties = (owner, props) => {
       case 'maximum_block_size':
         type = Serializer.UInt32
         break
-      case 'hbd_interest_rate':
+      case 'sbd_interest_rate':
         type = Serializer.UInt16
         break
       case 'url':
         type = Serializer.String
         break
-      case 'hbd_exchange_rate':
+      case 'sbd_exchange_rate':
         type = Serializer.Price
         break
       case 'account_creation_fee':

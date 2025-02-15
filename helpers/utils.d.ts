@@ -30,8 +30,8 @@ interface WitnessProps {
   key: PublicKey | string
   maximum_block_size?: number
   new_signing_key?: PublicKey | string | null
-  hbd_exchange_rate?: { base: string, quote: string }
-  hbd_interest_rate?: number
+  sbd_exchange_rate?: { base: string, quote: string }
+  sbd_interest_rate?: number
   url?: string
 }
 
